@@ -1,0 +1,10 @@
+<p>list works!</p>
+@if (pokemons$ | async; as reponse) {
+<ul>
+  @for (result of reponse.results; track result.name) {
+  <li>
+    <a [routerLink]="['/', 'pokemons', result.name]">{{ result.name }}</a>
+  </li>
+  }
+</ul>
+}

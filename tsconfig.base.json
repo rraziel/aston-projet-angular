@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@pokemon/api": ["api/src/index.ts"],
+      "@pokemon/card": ["card/src/index.ts"],
+      "@pokemon/details": ["details/src/index.ts"],
+      "@pokemon/home": ["home/src/index.ts"],
+      "@pokemon/list": ["list/src/index.ts"],
+      "@pokemon/notfound": ["notfound/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

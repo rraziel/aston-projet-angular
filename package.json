@@ -2,7 +2,10 @@
   "name": "@pokemon/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx build pokemon",
+    "serve": "nx serve pokemon"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.0.0",

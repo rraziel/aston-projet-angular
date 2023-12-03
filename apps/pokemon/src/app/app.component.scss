@@ -1,0 +1,21 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+pokemon-header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 48px;
+}
+
+router-outlet ::ng-deep + * {
+  position: fixed;
+  top: 48px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow-y: auto;
+}
